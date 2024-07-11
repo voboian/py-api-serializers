@@ -64,4 +64,3 @@ class MovieSessionViewSet(viewsets.ModelViewSet):
         if self.action == "retrieve":
             return MovieSessionRetrieveSerializer
         return self.serializer_class
-
